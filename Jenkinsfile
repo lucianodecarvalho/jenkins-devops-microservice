@@ -1,7 +1,7 @@
 //SCRIPTED
 //DECLARATIVE
 pipeline {
-	//agent any
+	agent any
 	environment {
 		dockerHome = tool 'myDocker'
 	}
